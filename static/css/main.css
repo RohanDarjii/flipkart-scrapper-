@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+    height: 40px;
+    width: 473px;
+    margin-right: 15px;
+    border-radius: 8px;
+    border: navajowhite;
+}
+form{
+    display: flex;
+}
+input.button {
+    background-color: honeydew;
+    border: none;
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 55px;
+}
